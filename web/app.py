@@ -3,7 +3,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
-//Error handlers
+#Error handlers
 @app.errorhandler(404)
 def error_404(error):
     return render_template('404.html'), 404
